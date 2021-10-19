@@ -1,0 +1,52 @@
+.container {
+    width: 1200px;
+    height: 600px;
+    background-color:#FDDE7E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+}
+.main {
+    width: 360px;
+    height: 441px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.basic {
+    height: 500px;
+}
+
+.price {
+    width: 52px;
+    height: 53px;
+    font-size: 50px;
+letter-spacing: 2px;
+line-height: 24px;
+color: #02995b;
+font-weight: bold;
+font-family: "Miso";
+text-align: center;
+/* border: 2px solid red; */
+}
+.title {
+    width: 156px;
+    height: 50px;
+    font-size: 56px;
+line-height: 24px;
+color: #333333;
+font-family: "Miso";
+text-align: center;
+}
+.description {
+    font-size: 21px;
+    width: 156px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
